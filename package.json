@@ -5,7 +5,7 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "vercel-build": "cp .env.example .env && composer install --no-dev --optimize-autoloader && php artisan key:generate && php artisan filament:assets && php artisan filament:optimize && npm install && npm run build"
+        "vercel-build": "cp .env.example .env && php artisan key:generate && php artisan filament:assets && php artisan filament:optimize && npm install && npm run build"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
