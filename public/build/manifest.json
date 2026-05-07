@@ -1,0 +1,265 @@
+{
+  "_AppLayout-BzC_S1_i.js": {
+    "file": "assets/AppLayout-BzC_S1_i.js",
+    "name": "AppLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CKIxSP9N.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/Pages/AI/ChatInterface.jsx": {
+    "file": "assets/ChatInterface-CAmJBwD_.js",
+    "name": "ChatInterface",
+    "src": "resources/js/Pages/AI/ChatInterface.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Announcements/Index.jsx": {
+    "file": "assets/Index-DCUlQDZH.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Announcements/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Announcements/Show.jsx": {
+    "file": "assets/Show-BCjUzL_H.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Announcements/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Article/Index.jsx": {
+    "file": "assets/Index-BitpEcxz.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Article/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Article/Show.jsx": {
+    "file": "assets/Show-DNJ1NMfx.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Article/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Bpjs/Index.jsx": {
+    "file": "assets/Index-C5cUaqr6.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Bpjs/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Consult/AiConsultation.jsx": {
+    "file": "assets/AiConsultation-B5-Brjo0.js",
+    "name": "AiConsultation",
+    "src": "resources/js/Pages/Consult/AiConsultation.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Consult/AiResult.jsx": {
+    "file": "assets/AiResult-DexavwNo.js",
+    "name": "AiResult",
+    "src": "resources/js/Pages/Consult/AiResult.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Contact.jsx": {
+    "file": "assets/Contact-BDOr9if6.js",
+    "name": "Contact",
+    "src": "resources/js/Pages/Contact.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Doctors/Index.jsx": {
+    "file": "assets/Index-D5cQjCN9.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Doctors/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Doctors/Show.jsx": {
+    "file": "assets/Show-CvaTXiXK.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Doctors/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Facility/CategoryIndex.jsx": {
+    "file": "assets/CategoryIndex-BPdrEN1D.js",
+    "name": "CategoryIndex",
+    "src": "resources/js/Pages/Facility/CategoryIndex.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Jobs/Index.jsx": {
+    "file": "assets/Index-CuT_33hZ.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Jobs/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Jobs/Show.jsx": {
+    "file": "assets/Show-3KtWCZ74.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Jobs/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/LandingPage.jsx": {
+    "file": "assets/LandingPage-BkMOEwFA.js",
+    "name": "LandingPage",
+    "src": "resources/js/Pages/LandingPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Registration/Index.jsx": {
+    "file": "assets/Index-Dn38wYPM.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Registration/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/Pages/Service/Index.jsx": {
+    "file": "assets/Index-AVpy3RFp.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Service/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BzC_S1_i.js"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-Clm4-nza.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/AI/ChatInterface.jsx",
+      "resources/js/Pages/Announcements/Index.jsx",
+      "resources/js/Pages/Announcements/Show.jsx",
+      "resources/js/Pages/Article/Index.jsx",
+      "resources/js/Pages/Article/Show.jsx",
+      "resources/js/Pages/Bpjs/Index.jsx",
+      "resources/js/Pages/Consult/AiConsultation.jsx",
+      "resources/js/Pages/Consult/AiResult.jsx",
+      "resources/js/Pages/Contact.jsx",
+      "resources/js/Pages/Doctors/Index.jsx",
+      "resources/js/Pages/Doctors/Show.jsx",
+      "resources/js/Pages/Facility/CategoryIndex.jsx",
+      "resources/js/Pages/Jobs/Index.jsx",
+      "resources/js/Pages/Jobs/Show.jsx",
+      "resources/js/Pages/LandingPage.jsx",
+      "resources/js/Pages/Registration/Index.jsx",
+      "resources/js/Pages/Service/Index.jsx"
+    ],
+    "css": [
+      "assets/app-CKIxSP9N.css"
+    ]
+  }
+}
