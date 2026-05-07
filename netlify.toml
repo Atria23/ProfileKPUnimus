@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "public"
+  publish = "public/build"
 
 [build.environment]
   SECRETS_SCAN_OMIT_KEYS = "REDIS_CLIENT,LOG_CHANNEL"
