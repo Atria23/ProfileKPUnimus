@@ -1,39 +1,47 @@
 {
-    "version": 2,
-  
-    "functions": {
-      "api/index.php": {
-        "runtime": "vercel-php@0.7.2"
-      }
+  "version": 2,
+
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.2"
+    }
+  },
+
+  "builds": [
+    {
+      "src": "api/index.php",
+      "use": "vercel-php@0.7.2"
     },
-  
-    "builds": [
-      {
-        "src": "api/index.php",
-        "use": "vercel-php@0.7.2"
-      },
-      {
-        "src": "public/build/**",
-        "use": "@vercel/static"
-      }
-    ],
-  
-    "routes": [
-      {
-        "src": "/build/(.*)",
-        "dest": "/public/build/$1"
-      },
-      {
-        "src": "/favicon.ico",
-        "dest": "/public/favicon.ico"
-      },
-      {
-        "src": "/favicon.png",
-        "dest": "/public/favicon.png"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-      }
-    ]
-  }
+    {
+      "src": "public/build/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/favicon.ico",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/favicon.png",
+      "use": "@vercel/static"
+    }
+  ],
+
+  "routes": [
+    {
+      "src": "/build/(.*)",
+      "dest": "/public/build/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/public/favicon.ico"
+    },
+    {
+      "src": "/favicon.png",
+      "dest": "/public/favicon.png"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
+}
