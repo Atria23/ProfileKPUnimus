@@ -8,22 +8,14 @@
     },
   
     "builds": [
-        {
-            "src": "/build/(.*)",
-            "dest": "/public/build/$1"
-          },
-          {
-            "src": "/favicon.ico",
-            "dest": "/public/favicon.ico"
-          },
-          {
-            "src": "/favicon.png",
-            "dest": "/public/favicon.png"
-          },
-          {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-          }
+      {
+        "src": "api/index.php",
+        "use": "vercel-php@0.7.2"
+      },
+      {
+        "src": "public/build/**",
+        "use": "@vercel/static"
+      }
     ],
   
     "routes": [
